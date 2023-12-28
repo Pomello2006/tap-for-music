@@ -11,6 +11,14 @@ section{
 h1{
     font-size: 50px;
 }
+h2 {
+    font-size: 50px;
+    color:red
+}
+h3 {
+    font-size: 50px;
+    color:red
+}
 p{
     font-size: 25px;
 }
