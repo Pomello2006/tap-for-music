@@ -1,7 +1,6 @@
 const sounds = document.querySelectorAll('.sound');
 const pads = document.querySelectorAll('.pads div');
 const animationZone = document.querySelector('.animation-zone');
-const vika = document.querySelector('h3');
 const colors = [ 
     "aqua",
     "yellow",
@@ -9,9 +8,7 @@ const colors = [
     "red",
     "palevioletred"
 ]
-for let i=0;i <vika.length;i +=1){
-    vika[i].addEventListener('click',vikago(){vika.style.color = red });
-}
+
 for (let i = 0;i < pads.length; i += 1){
     pads[i].addEventListener('click', playSound(i));
 }
