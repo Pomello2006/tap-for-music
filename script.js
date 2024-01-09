@@ -32,3 +32,4 @@ function createBubble(item){
     bubble.style.backgroundColor = colors[item];
     bubble.style.animation = "ball 2s linear"
     bubble.addEventListener('animationend', function () {animationZone.removeChild(bubble)})
+}
